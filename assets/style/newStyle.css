@@ -1,0 +1,160 @@
+#profileImage {
+    width: auto;
+    position: relative;
+    left: -20px;
+    height: 125%;
+    align-content: center;
+}
+
+.d-flex {
+    align-content: center;
+}
+
+.roundedMe {
+    border-radius: 10px;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom right, white, rgb(187, 187, 255));
+}
+
+.colorP {
+    background-color: rgb(195, 195, 255);
+}
+
+.colorW {
+    background-color: rgb(220, 220, 255);
+    position: relative;
+    bottom: -10vh;
+}
+
+#links {
+    position: relative;
+    bottom: -35vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#btn {
+    width: 18%;
+    color: white;
+    background-color: rgb(163, 148, 218);
+    border: rgb(146, 218, 187);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn img {
+    max-width: 24px;
+    margin-right: 10px;
+}
+.size {
+    height: 93.8vh;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reference {
+    position: absolute;
+    bottom: 0vh;
+    font-size: 6px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.projects img {
+    max-width: 40vw;
+}
+
+#project1 img {
+    max-width: 60vw;
+}
+
+#projectName {
+    font-size: calc(2.4vw);
+}
+
+@media screen and (max-width: 992px) {
+    #profile-card {
+        margin-top: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #profileImage {
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .card {
+        position: relative;
+        top: -20px;
+    }
+
+    #links {
+        bottom: -10vh;
+    }
+
+    .size {
+        height: 93.8vh;
+    }
+
+    #profile-text {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #profile-card {
+        margin-top: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #profileImage {
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .card {
+        position: relative;
+        top: -20px;
+    }
+
+    #links {
+        bottom: -5vh;
+    }
+
+    .size {
+        height: 93.8vh;
+    }
+
+    #profile-text {
+        width: 95%;
+    }
+
+    body section div div div div button span {
+        display: none;
+    }
+
+    .projects img {
+        max-width: 36vw;
+    }
+}
