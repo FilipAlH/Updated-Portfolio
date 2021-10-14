@@ -2,7 +2,6 @@
     width: auto;
     position: relative;
     left: -20px;
-    height: 125%;
     align-content: center;
 }
 
@@ -87,6 +86,10 @@
     font-size: calc(2.4vw);
 }
 
+.card {
+    width: 90%;
+}
+
 @media screen and (max-width: 992px) {
     #profile-card {
         margin-top: auto;
@@ -117,9 +120,16 @@
     #profile-text {
         width: 92%;
     }
+
+    .card {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    *{
+        font-size: 96%;
+    }
     #profile-card {
         margin-top: auto;
         flex-direction: column;
@@ -129,7 +139,7 @@
 
     #profileImage {
         height: auto;
-        width: auto;
+        width: 50%;
         margin-top: 20px;
     }
 
@@ -143,11 +153,11 @@
     }
 
     .size {
-        height: 93.8vh;
+        height: auto;
     }
 
     #profile-text {
-        width: 95%;
+        width: 85%;
     }
 
     body section div div div div button span {
@@ -155,6 +165,15 @@
     }
 
     .projects img {
-        max-width: 36vw;
+        max-width: 80vw;
     }
+
+    #project1 img {
+        max-width: 80vw;
+    }
+
+    .size {
+        height: 100vh;
+    }
+
 }
